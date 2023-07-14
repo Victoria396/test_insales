@@ -591,12 +591,10 @@ footer {
 }
 
 .goods__img {
-    /* background: url(./img/goods/one.jpg) no-repeat; */
-    /* max-width: 302px; */
     width: 100%;
     min-height: 402px;
     position: relative;
-    border-radius: 40px;
+    background: #fff;
 }
 
 .goods__img img {
@@ -625,8 +623,7 @@ footer {
 }
 
 .goods__swiper .swiper-slide {
-    min-height: 660px;
-    background-color: #fff;
+    min-height: 685px;
     max-width: fit-content;
     border-radius: 40px;
     transition: all ease .5s;
@@ -644,6 +641,8 @@ footer {
 .goods__description {
     text-align: left;
     padding: 12px;
+    background: #fff;
+    border-radius: 0 0 40px 40px;
 }
 
 .goods__title {
@@ -964,6 +963,7 @@ footer {
         width: 65%;
         margin: 0;
         overflow: visible;
+        padding-left: 24px;
     }
 
     .advantages .container {
